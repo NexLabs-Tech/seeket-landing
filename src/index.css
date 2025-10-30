@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -7,6 +7,18 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Seeket Brand Colors */
+  --primary-orange: #FF5C00;
+  --primary-orange-hover: #ff7324;
+  --primary-orange-light: #ff8c42;
+  --accent-red: #ff3366;
+  --accent-pink: #ff6b9d;
+  --text-dark: #1a1a1a;
+  --text-gray: #666;
+  --text-light: #999;
+  --bg-light: #fafafa;
+  --bg-orange-tint: #fef5f1;
 }
 
 * {
@@ -19,7 +31,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  color: #333;
+  color: var(--text-dark);
   background-color: #fff;
 }
 

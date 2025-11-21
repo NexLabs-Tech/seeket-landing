@@ -14,8 +14,7 @@ function App() {
             <a href="#about">About</a>
             <a href="#ingresar">Ingresar</a>
           </nav>
-          <a href="#registro" className="btn-registrarse">Registrarse</a>
-        </div>
+Entra a nuestro prototipo inic        </div>
       </header>
 
       {/* Hero Section - Inicio */}
@@ -130,8 +129,8 @@ function App() {
               <div className="steps-box">
                 <h3>Solo sigue estos pasos y sé parte del grupo fundador de Seeket:</h3>
                 <ol>
-                  <li>Entra a nuestro prototipo inicial <a href="#" className="link-inline">(link)</a></li>
-                  <li>Abre el instructivo para guiarte por el marketplace <a href="#" className="link-inline">(Instructivo)</a></li>
+                  <li>Entra a nuestro prototipo inicial <a href="https://seeket-platform.netlify.app/" className="link-inline">(link)</a></li>
+                  <li>Abre el instructivo para guiarte por el marketplace <a href="https://drive.google.com/file/d/1NXcHSCHON-vwVGbMbsncV2J1IrCZtO6X/view?usp=sharing" className="link-inline">(Instructivo)</a></li>
                   <li>Cuando termines, danos tus comentarios y recomendaciones en este formulario <a href="#" className="link-inline">(link de formulario)</a></li>
                 </ol>
                 <p className="confirmation-text">Al terminar el formulario, te enviaremos un correo electrónico confirmando entrada</p>

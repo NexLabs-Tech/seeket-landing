@@ -174,10 +174,10 @@ function App() {
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
-            <div className="footer-brand">
+            {/* <div className="footer-brand">
               <img src="/seeket.png" alt="Seeket" className="footer-logo" />
               <p className="footer-tagline">¿Tienes alguna duda? Contáctanos y trabajemos juntos</p>
-            </div>
+            </div> */}
 
             <div className="footer-info">
               <div className="footer-section">

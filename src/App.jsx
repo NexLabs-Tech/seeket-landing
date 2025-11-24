@@ -26,20 +26,27 @@ function App() {
 
       {/* Hero Section - Inicio */}
       <section id="inicio" className="hero">
-        <div className="container">
-          <div className="hero-content">
-            <h1>
-              El primer marketplace de marketing en LATAM,
-              <span className="highlight"> impulsado por IA</span>
-            </h1>
-            <p className="subtitle">Conectamos agencias de marketing con negocios que quieren crecer.</p>
+        <div className="bubble-container">
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="bubble"></div>
+          <div className="container">
+            <div className="hero-content">
+              <h1>
+                El primer marketplace de marketing en LATAM,
+                <span className="highlight"> impulsado por IA</span>
+              </h1>
+              <p className="subtitle">Conectamos agencias de marketing con negocios que quieren crecer.</p>
 
-            <div className="hero-cta">
-              <p className="cta-question">¿Eres una agencia de marketing?</p>
-              <a href="#agencias-fundadoras" className="btn-primary">
-                Valida nuestro prototipo y conviértete en una agencia fundadora
-              </a>
-              <p className="launch-info">Lanzamiento - Junio 2026</p>
+              <div className="hero-cta">
+                <p className="cta-question">¿Eres una agencia de marketing?</p>
+                <a href="#agencias-fundadoras" className="btn-primary">
+                  Valida nuestro prototipo y conviértete en una agencia fundadora
+                </a>
+                <p className="launch-info">Lanzamiento - Junio 2026</p>
+              </div>
             </div>
           </div>
         </div>

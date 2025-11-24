@@ -9,12 +9,19 @@ function App() {
           <div className="logo">
             <img src="/seeket.png" alt="Seeket" />
           </div>
-          <nav className="nav">
+          {/* <nav className="nav">
             <a href="#marketplace">Marketplace</a>
             <a href="#about">About</a>
-            <a href="#ingresar">Ingresar</a>
-          </nav>
-Entra a nuestro prototipo inic        </div>
+          </nav> */}
+          <a
+            href="https://seeket-platform.netlify.app/"
+            className="btn-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Entra a nuestro prototipo inicial
+          </a>
+        </div>
       </header>
 
       {/* Hero Section - Inicio */}

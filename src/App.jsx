@@ -114,6 +114,23 @@ function App() {
         </div>
       </section>
 
+      {/* Modelo de Negocios Section */}
+      <section id="modelo" className="modelo-negocios">
+        <div className="container">
+          <h2>Nuestro modelo de negocio</h2>
+          <div className="modelo-grid">
+            <div className="modelo-card">
+              <h3>Para negocios</h3>
+              <p>Para negocios en busca de publicidad, la plataforma será <strong>totalmente gratis</strong></p>
+            </div>
+            <div className="modelo-card">
+              <h3>Para agencias</h3>
+              <p>Para las agencias habrá una suscripción mensual fija de al rededor de <strong>20-30 USD mensuales</strong> por publicar su información y operar en Seeket</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Agencias Fundadoras Section */}
       <section id="agencias-fundadoras" className="agencias-fundadoras">
         <div className="circle circle-send circle-left">
@@ -145,7 +162,7 @@ function App() {
                 <ol>
                   <li>Entra a nuestro prototipo inicial <a href="https://seeket-platform.netlify.app/" className="link-inline">(link)</a></li>
                   <li>Abre el instructivo para guiarte por el marketplace <a href="https://drive.google.com/file/d/1NXcHSCHON-vwVGbMbsncV2J1IrCZtO6X/view?usp=sharing" className="link-inline">(Instructivo)</a></li>
-                  <li>Cuando termines, danos tus comentarios y recomendaciones en este formulario <a href="#" className="link-inline">(link de formulario)</a></li>
+                  <li>Cuando termines, danos tus comentarios y recomendaciones en este formulario <a href="https://forms.office.com/pages/responsepage.aspx?id=N-PDcxejJEa7AwR2Y8TZ7ZawZXGezoBBoG0nB9_eMuVUM1hWSkhET1FDVFlRVTg2VDNFQTNaUFVaOC4u&route=shorturl" target="_blank" className="link-inline">(link de formulario)</a></li>
                 </ol>
                 <p className="confirmation-text">Al terminar el formulario, te enviaremos un correo electrónico confirmando entrada</p>
               </div>
@@ -154,30 +171,15 @@ function App() {
         </div>
       </section>
 
-      {/* Modelo de Negocios Section */}
-      <section id="modelo" className="modelo-negocios">
-        <div className="container">
-          <h2>Nuestro modelo de negocio</h2>
-          <div className="modelo-grid">
-            <div className="modelo-card">
-              <h3>Para negocios</h3>
-              <p>Para negocios en busca de publicidad, la plataforma será <strong>totalmente gratis</strong></p>
-            </div>
-            <div className="modelo-card">
-              <h3>Para agencias</h3>
-              <p>Para las agencias habrá una suscripción mensual fija de al rededor de <strong>20-30 USD mensuales</strong> por publicar su información y operar en Seeket</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Nuestra Visión Section */}
       <section id="vision" className="vision">
         <div className="container">
           <h2>Nuestra visión</h2>
           <div className="vision-content">
-            <p>Somos un equipo joven que cree que la innovación puede acercarnos aún más a nuestro éxito empresarial.</p>
-            <p>Seeket nace para crear puentes entre la creatividad y las oportunidades, entre quienes buscan y quienes pueden transformar.</p>
+            <p>Hoy en día, muchas agencias de marketing tienen dificultad para encontrar clientes estables y bien segmentados, mientras que negocios pequeños o medianos no saben a quién acudir, ni cómo comparar servicios de marketing de forma clara y confiable. Seeket busca cerrar esa brecha y conectar ambos mundos en una plataforma centralizada, accesible y transparente.</p>
+            <p>Somos un equipo de jóvenes universitarios que cree que la innovación puede acercarnos aún más a nuestro éxito empresarial, cuya misión es conectar negocios y agencias de marketing en un entorno digital funcional, simple y justo. Queremos facilitar la toma de decisiones comerciales y mejorar el acceso a servicios de marketing de calidad.</p>
             <p className="vision-highlight">Este es solo el inicio.</p>
           </div>
         </div>
@@ -200,8 +202,8 @@ function App() {
               </div>
 
               <div className="footer-social">
-                <a href="#" aria-label="Facebook">Facebook</a>
-                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="https://www.facebook.com/people/Seeket/61581886470321/" target="_blank" aria-label="Facebook">Facebook</a>
+                <a href="https://www.instagram.com/seeket_ai/" target="_blank" aria-label="Instagram">Instagram</a>
               </div>
             </div>
           </div>
